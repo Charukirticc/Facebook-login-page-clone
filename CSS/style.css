@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ecf0f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+}
+.text {
+  /* border: 2px solid; */
+  position: relative;
+  top: 7rem;
+  width: 35rem;
+}
+.text h1 {
+  color: #1877f2;
+  font-size: 4em;
+  font-family: "Roboto", sans-serif;
+}
+.text h2 {
+  font-size: 2em;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+}
+
+.logIn {
+  /* position: ; */
+  position: relative;
+  align-items: center;
+  top: 8rem;
+  right: 2rem;
+  height: 23rem;
+  width: 25rem;
+  background: #fff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.logIn form {
+  display: inline-block;
+  /* border: 2px solid; */
+  padding: 1.3rem;
+}
+
+.logIn .usrNm {
+  width: 22rem;
+  height: 3.5rem;
+  padding: 14px 16px;
+  margin-bottom: 1rem;
+  font-size: 1.2em;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #dddfe2;
+}
+
+.logIn .usrPass {
+  width: 22rem;
+  height: 3.5rem;
+  padding: 14px 16px;
+  margin-bottom: 1rem;
+  font-size: 1.2em;
+  outline: none;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+}
+
+.logIn .submit {
+    width: 22rem;
+    height: 3.5rem;
+    border-radius: 6px;
+    padding: 0 16px;
+    margin-bottom: 1rem;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    background: #1877f2;
+    color: #fff;
+    cursor: pointer;
+}
+
+.logIn .usrFp{
+    color: #1877f2;
+    font-weight: 500;
+    /* font-size: 14px; */
+    text-decoration: none;
+    cursor: pointer;
+    /* margin-bottom: 1rem; */
+}
+
+.logIn .bhr{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    /* display: flex; */
+    margin: 15px 14px;
+    text-align: center;
+}
+
+.logIn .cNa{
+    width: 15rem;
+    height: 3.5rem;
+    border-radius: 6px;
+    padding: 0 16px;
+    margin-bottom: 1rem;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    background: #42b72a;
+    color: #fff;
+    cursor: pointer;
+}
